@@ -2,7 +2,8 @@
   margin: 0 18px 0 0;
   text-decoration: none;
   color: #fff;
-  line-height: 112%;
+  font-size: 16px;
+  line-height: 18px;
   opacity: 1;
   transition: .2s;
 }
@@ -14,6 +15,8 @@
 @media screen and (max-width: 767px) {
   .footer__link {
     display: flex;
+    font-size: 24px;
+    line-height: 24px;
     margin: 0 0 32px;
   }
 }

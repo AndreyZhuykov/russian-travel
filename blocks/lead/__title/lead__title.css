@@ -7,9 +7,16 @@
   text-align: center;
 }
 
+@media screen and (max-width: 1023px) {
+  .lead__title {
+    max-width: calc(100% - (24px * 2));
+  }
+}
+
 @media screen and (max-width: 767px) {
   .lead__title {
     max-width: calc(100% - (16px * 2));
-    font-size: 2.5rem;
+    font-size: 40px;
+    line-height: 110%;
   }
 }
