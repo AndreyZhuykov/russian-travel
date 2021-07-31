@@ -15,12 +15,18 @@
 @media screen and (max-width: 1279px) {
   .place {
     grid-template-columns: min-content 456px;
+    gap: 48px 32px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .place {
     grid-template-columns: min-content 340px;
+    gap: 48px 28px;
+    margin-bottom: 73px;
+  }
+  .place:last-of-type {
+    margin-bottom: 90px;
   }
 }
 
@@ -29,5 +35,9 @@
     grid-template-rows: min-content;
     grid-template-columns: 320px;
     margin-bottom: 50px;
+    gap: 32px;
+  }
+  .place:last-of-type {
+    margin-bottom: 66px;
   }
 }
