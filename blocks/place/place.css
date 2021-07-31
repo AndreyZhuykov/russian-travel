@@ -21,12 +21,13 @@
 
 @media screen and (max-width: 1023px) {
   .place {
-    grid-template-columns: min-content 340px;
+    grid-template-columns: 340px 352px;
     gap: 48px 28px;
-    margin-bottom: 73px;
+    margin-bottom: 72px;
   }
   .place:last-of-type {
     margin-bottom: 90px;
+    gap: 39px 27px;
   }
 }
 
