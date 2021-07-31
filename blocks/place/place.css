@@ -25,10 +25,7 @@
     gap: 48px 28px;
     margin-bottom: 72px;
   }
-  .place:last-of-type {
-    margin-bottom: 90px;
-    gap: 39px 27px;
-  }
+  
 }
 
 @media screen and (max-width: 767px) {
